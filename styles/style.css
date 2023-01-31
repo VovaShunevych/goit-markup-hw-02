@@ -1,0 +1,302 @@
+/*Основний колір  color: #2E2F42; */
+/* Колір тексту p color: #434455; */
+/* Акцент, заголовок  color: #FFFFFF; */
+
+:root {
+  --main-text-color: #434455;
+  --main-title-color: #ffffff;
+  --main-sabtitle-color: #2e2f42;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/* -------------------------Header----------------------------------------- */
+
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-navigation {
+}
+.header-logo {
+  font-family: "Raleway";
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo-studio {
+  color: #2e2f42;
+}
+.header-list {
+}
+.header-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-link {
+}
+.header-link:is(:hover, :focus) {
+  color: #4d5ae5;
+}
+.header-address {
+}
+.header-address-list {
+}
+.header-address-item {
+}
+.header-mail {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-mail:is(:hover, :focus) {
+  color: #4d5ae5;
+}
+.header-tell {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-tell:is(:hover, :focus) {
+  color: #4d5ae5;
+}
+/* -------------------------Header----------------------------------------- */
+/* -------------------------Section 1 ----------------------------------------- */
+.main {
+}
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: calc(60 / 56);
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--main-title-color) #ffffff;
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: #ffffff;
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.hero-btn:is(:hover, :focus) {
+  background: #404bbf;
+}
+/* -------------------------Section 1 ----------------------------------------- */
+/* -------------------------Section 2 ----------------------------------------- */
+.fichers {
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.fichers-list {
+}
+.fichers-item {
+}
+.fichers-sabtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+  color: var(--main-sabtitle-color) #2e2f42;
+}
+.fichers-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: var(--main-text-color) #434455;
+}
+/* -------------------------Section 2 ----------------------------------------- */
+/* -------------------------Section 3 ----------------------------------------- */
+.doing {
+}
+.doing-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-sabtitle-color) #2e2f42;
+}
+.doing-title-list {
+}
+.doing-title-item {
+}
+/* -------------------------Section 3 ----------------------------------------- */
+/* -------------------------Section 4 ----------------------------------------- */
+.team {
+  background: #f4f4fd;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(40 / 36);
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--main-sabtitle-color) #2e2f42;
+}
+.team-title-list {
+}
+
+.team-title-item {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team-sabtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+  letter-spacing: 0.02em;
+
+  color: var(--main-sabtitle-color) #2e2f42;
+}
+.team-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color) #434455;
+}
+/* -------------------------Section 4 ----------------------------------------- */
+/* -------------------------Footer----------------------------------------- */
+.footer {
+  background: #2e2f42;
+}
+.footetr-logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.header-logo-studio-2 {
+  color: #f4f4fd;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+/* -------------------------Footer----------------------------------------- */
+/* -------------------------Portfolio Section 1----------------------------------------- */
+.filtres-btn-portfolio {
+  font-family: inherit;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: (24/16);
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  width: 116px;
+  height: 48px;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.filtres-btn-portfolio:is(:hover, :focus) {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  background: #404bbf;
+}
+
+.filtres {
+}
+.filtres-list {
+}
+.filtres-item {
+}
+
+/* -------------------------Portfolio Section 1----------------------------------------- */
+
+/* -------------------------Portfolio Section ROW----------------------------------------- */
+
+.row1 {
+}
+
+.row-list {
+}
+
+.row-item {
+}
+.row-sabtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(24 / 20);
+
+  letter-spacing: 0.02em;
+
+  color: var(--main-sabtitle-color) #2e2f42;
+}
+.row-text {
+  font-size: 16px;
+  line-height: calc(24 / 16);
+
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color) #434455;
+}
+.row2 {
+}
+
+.row3 {
+}
+
+/* -------------------------Portfolio Section ROW----------------------------------------- */
