@@ -67,7 +67,7 @@ body {
   color: var(--main-header-logo-color, #4d5ae5);
 }
 .header-logo-studio {
-  color: var(--main-header-logo-studio-color#2e2f42);
+  color: var(--main-header-logo-studio-color, #2e2f42);
 }
 .header-list {
 }
